@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 header{
     height: 100px;
@@ -39,5 +41,20 @@ header{
     display: flex;
 }
 .menu li a{
-    
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #000000;
+}
+.menu li a:hover{
+    border-bottom: 5px solid #B28756;  
+    color: #B28756;  
+}
+.menu .active a{
+    color: #B28756;
 }
