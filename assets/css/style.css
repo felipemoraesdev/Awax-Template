@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 header{
     height: 100px;
@@ -54,7 +57,7 @@ header{
 }
 .menu li a:hover{
     border-bottom: 5px solid #B28756;  
-    color: #DDDDDD;  
+    color: #B28756;
 }
 .menu .active a{
     color: #B28756;
@@ -113,7 +116,7 @@ header{
     font-weight: 600;
     text-decoration: none;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 20px;
 }
 .banner .sliders-pointers{
@@ -136,4 +139,42 @@ header{
 }
 .banner .pointer.active{
     background-color: #B28756;
+}
+.default{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section-title,
+.default .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+}
+.default .section-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.default .section-desc{
+    font-size: 12px;
+    color: #BBB;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.default .section-body{
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+}
+.default.light{
+    background-color: #F7F7F7;
+}
+.default.light .section-title{
+    color: #000000;
+}
+.default.dark{
+    background-color: #000000;
+}
+.default.dark .section-title{
+    color: #F7F7F7;
 }
