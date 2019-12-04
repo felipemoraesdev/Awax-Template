@@ -70,7 +70,7 @@ header{
     height: calc(100vh - 100px);
     background-color: #333;
     background-image: url(../images/bg.jpg);
-    background-size: cover;
+    bacbannerkground-size: cover;
     background-position: bottom;
     overflow: hidden;
 }
@@ -305,9 +305,70 @@ header{
 }
 .section-projects-photoinfo h5{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .section-projects--photoarea:hover .section-projects-photoinfo{
     display: flex;
+}
+
+
+/* SESSÃO NOSSO TIME */
+
+.bg-team{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+}
+.section-team{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-team .sliders{
+    width: 1000vw;
+    height: 100%;
+    
+}
+.section-team .slide{
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: white;
+    margin-right: 20px;
+}
+.section-team .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: #FFF;
+    justify-content: center;
+}
+
+.section-team-area .sliders-pointers{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-team-area .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-team-area .pointer.active{
+    background-color: #B28756;
 }
