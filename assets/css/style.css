@@ -703,3 +703,34 @@ header{
 .section-share--icon img{
     height: 12px;
 }
+
+.section-contact{
+    max-width: 450px;
+    margin: auto;  
+    text-align: center;  
+}
+.section-contact input[type=text],
+.section-contact input[type=email],
+.section-contact textarea {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    margin-top: 10px;
+}
+.section-contact textarea {
+    height:100px;
+    resize:none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.section-contact--split{
+    display: flex;
+}
+.section-contact--split input:first-child{
+    margin-right: 20px;
+}
