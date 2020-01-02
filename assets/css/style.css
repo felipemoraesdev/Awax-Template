@@ -8,6 +8,8 @@ body{
     font-size: 13px;
     overflow-x: hidden;
 }
+
+/* ----------- CABEÇALHO DO SITE ---------- */
 header{
     height: 100px;
     background-color: #000;
@@ -35,6 +37,10 @@ header{
     width: 80px;
     height: 80px;
     margin: auto;
+}
+
+.menu-opener{
+    display: none;
 }
 .menu{
     flex: 1;
@@ -66,6 +72,8 @@ header{
 .menu .active a{
     color: #B28756;
 }
+
+/* ---------- BANNER PRINCIPAL ---------- */
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
@@ -184,12 +192,8 @@ header{
     color: #F7F7F7;
 }
 
-
-
-
-
-/* CSS de áreas personalizadas */
-/* Área Sobre */
+/* ----- CSS de áreas personalizadas ----- */
+/* ---------- SESSÃO SOBRE NÓS ---------- */
 .section-aboutus{
     display: flex;
 }
@@ -209,7 +213,7 @@ header{
     box-shadow: 0px 5px 10px #333;
 }
 
-/* Área Serviços */
+/* ---------- SESSÃO DE SERVIÇOS ---------- */
 .section-services{
     display: flex;
 }
@@ -233,7 +237,7 @@ header{
     margin-top: 15px;
 }
 
-/* Área de projetos */
+/* ---------- Área de projetos ---------- */
 .section-projects{
     display: flex;
     flex-direction: column;
@@ -267,7 +271,6 @@ header{
 .section-projects--filters li:first-child{
     border-left: 0;
 }
-
 .section-projects--photos{
     width: 100vw;
     max-width: 1140px;
@@ -313,8 +316,7 @@ header{
 }
 
 
-/* SESSÃO NOSSO TIME */
-
+/* ---------- SESSÃO NOSSO TIME ---------- */
 .bg-team{
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -408,7 +410,7 @@ header{
 }
 
 
-/* SESSAO DE CLIENTES SATISFEITOS */
+/* ---------- SESSAO DE CLIENTES SATISFEITOS ---------- */
 .testimonials .section-body{
     max-width: initial;
 }
@@ -458,7 +460,6 @@ header{
     margin-left: 30px;
     margin-right: 30px;
 }
-
 .section-testimonials .sliders-pointers{
     width: 100vw;
     height: 20px;
@@ -480,7 +481,7 @@ header{
     background-color:#B28756;
 }
 
-/* SESSAO DE PARCEIROS */
+/* ---------- SESSAO DE PARCEIROS ---------- */
 .section-companies{
     border-top: 1px solid #DDD;
     border-bottom: 1px solid #DDD;
@@ -494,7 +495,7 @@ header{
     text-align: center;
 }
 
-/* SESSÃO DE PREÇOS */
+/* ---------- SESSÃO DE PREÇOS ---------- */
 .section-price{
     display: flex;
 }
@@ -527,8 +528,7 @@ header{
     font-size:12px;
 }
 
-/* SESSÃO PREMIUM */
-
+/* ---------- SESSÃO PREMIUM ---------- */
 .premium {
     background-color:#FFF !important;
     border-top:1px solid #CCC;
@@ -591,7 +591,6 @@ header{
     font-size:17px;
     font-weight:600;
 }
-
 .section-premium .sliders-pointers {
     width:100vw;
     height:20px;
@@ -613,7 +612,7 @@ header{
     background-color:#B28756;
 }
 
-/* SESSÃO FATOS */
+/* ---------- SESSÃO FATOS ---------- */
 .section-facts {
     display:flex;
 }
@@ -652,7 +651,7 @@ header{
     color: #999;
 }
 
-/* ---------------- SESSÃO FALE SOBRE NÓS ------------------- */
+/* ---------- SESSÃO FALE SOBRE NÓS ---------- */
 .section-share--icon.twitter{
     background-color: #34C5F0;
 }
@@ -704,6 +703,8 @@ header{
     height: 12px;
 }
 
+
+/* ---------- SESSÃO DE CONTATO ---------- */
 .section-contact{
     max-width: 450px;
     margin: auto;  
@@ -735,7 +736,7 @@ header{
     margin-right: 20px;
 }
 
-/* SESSÃO DO MAPA */
+/* ---------- SESSÃO DO MAPA ---------- */
 .section-map{
     background-image: url(../images/mapa.jpg);
     background-size: cover;
@@ -775,7 +776,7 @@ header{
     height: auto;
 }
 
-/* RODAPÉ DO SITE */
+/* ---------- RODAPÉ DO SITE ---------- */
 footer{
     background-color: black;
     padding: 20px;
@@ -832,4 +833,90 @@ footer{
     outline: 0;
     color: #FFF;
     text-align: center;
+}
+
+/* ---------- RESPONSIVIDADE PARA TABLET ---------- */
+@media (min-width:490px) and (max-width:890px){
+    
+    /* ----- AJUSTES NO MENU DE NAVEGAÇÃO ----- */
+    .logo{
+        margin-left: 30px;
+    }
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 60vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 80px;
+        font-size: 20px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .menu li.active a{
+        border: 0;
+        color: #B28756;
+    }
+
+    /* AJUSTES NA SESSÃO SOBRE NÓS */
+    .section-aboutus{
+        flex-direction: column;
+    }
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right{
+        width: auto;
+    }
+
+    /* AJUSTES NA SESSÃO DE SERVIÇOS */
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 25px;
+    }
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    /* AJUSTES NA SESSÃO TIME */
+    .section-team {
+        max-width: 580px;
+    }
+
+    /* AJUSTES NA SESSÃO MAPA */
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map--info{
+        width: auto;
+    }
+    .section-map--area{
+        width: auto;
+    }
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
 }
