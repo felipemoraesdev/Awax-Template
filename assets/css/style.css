@@ -836,7 +836,7 @@ footer{
 }
 
 /* ---------- RESPONSIVIDADE PARA TABLET ---------- */
-@media (min-width:490px) and (max-width:890px){
+@media (min-width:540px) and (max-width:890px){
     
     /* ----- AJUSTES NO MENU DE NAVEGAÇÃO ----- */
     .logo{
@@ -946,7 +946,7 @@ footer{
 }
 
 /* ---------- RESPONSIVIDADE CELULAR ---------- */
-@media (max-width:490px) {
+@media (max-width:540px) {
     
     /* ----- AJUSTES NO MENU DE NAVEGAÇÃO ----- */
     .logo{
