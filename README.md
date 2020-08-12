@@ -14,7 +14,7 @@
 ## 🖥 Preview
 
 <p align="center">
-  <img src="#" width="700" >
+  <img src="assets/images/readme.png" width="700" >
 </p>
 
 ---
