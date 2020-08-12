@@ -1,3 +1,6 @@
+<h3 align="center">
+  *🚧 Em construção 🚧*
+</h3>
 ## 📋 Índice
 - [Preview](#-Preview)
 - [Sobre](#-Sobre)
@@ -10,15 +13,23 @@
 </p>
 ---
 ## 📖 Sobre 
-Website template feito para sites instituicionais desenvolvido durante o curso de HTML5 & CSS3 da B7Web.
+Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 3 a 9 de Agosto de 2020.
+A proposta do projeto é realizar a ponte entre o professor e o aluno, nela o professor pode se cadastrar informando o que deseja ensinar, o horário disponível e o seu preço! 
 --- 
 ## 🚀 Tecnologias utilizadas
 O projeto está sendo desenvolvido com as seguintes tecnologias:
-- HTML5
-- CSS3
+- Typescript
+- Node.js
+- React.js
+- <s>React Native</s> (próximas aulas 🚧)
+- <s>Expo</s> (próximas aulas 🚧)
+- React Native
+- Expo
 
 --- 
 
 ## ⌨ Como executar o projeto
-Fazer download da pasta do projeto e abrir o arquivo index.html
+```bash
+Em desenvolvimento
+```
 ---
