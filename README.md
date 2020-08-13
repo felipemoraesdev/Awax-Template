@@ -1,6 +1,6 @@
-<h3 align="center">
-  *AWAX TEMPLATE*
-</h3>
+<h1 align="center">
+  Awax Template
+</h1>
 
 ## 📋 Índice
 
@@ -34,6 +34,6 @@ O projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## ⌨ Como executar o projeto
 
-Baixe o arquivo .ZIP do projeto e após descompactar abra o arquivo home.html
+Baixe o arquivo .ZIP do projeto e após descompactar abra o arquivo index.html
 
 ---
