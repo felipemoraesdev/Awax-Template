@@ -34,6 +34,6 @@ O projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## ⌨ Como executar o projeto
 
-Baixe o arquivo .ZIP do projeto e após descompactar abra o arquivo index.html
+Baixe o arquivo .ZIP do projeto e após descompactar abra o arquivo home.html
 
 ---
