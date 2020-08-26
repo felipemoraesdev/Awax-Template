@@ -21,7 +21,7 @@
 
 ## 📖 Sobre 
 
-Website template responsivo feito como conclusão do curso da B7Web de HTML5 & CSS3 feito com o professor Bonieky Lacerda.
+Website template responsivo feito como conclusão do módulo de HTML5 & CSS3 do curso de Desenvolvedor Fullstack da B7Web com o professor Bonieky Lacerda.
 
 ---
 
